@@ -14,4 +14,6 @@ There are a few different options depending on your preference.
 
 \*You will get better performance from the minified js, it does NOT include debug logging.
 
-2. Install the bookmarklet. You will need to enable your browsers "Bookmark Bar" (in Chrome this is Ctl+Shift+b). Navigate to add a bookmark manually and paste the contents of the googlemaps-bot-bookmarklet file. Give it anyname you'd like, just make sure it shows up on the bookmark bar. Go to [https://snake.googlemaps.com](https://snake.googlemaps.com), Click "Start", Choose your destination, then start playing. Before the Snake hits a wall click the bookmark you just made in the bookmark bar and watch your snake [slowly] eat every person on the map.
+2. Copy the raw contents of the [googlemaps-bot-bookmarklet file](/googlemaps-snake-bot-bookmarklet?raw=true), paste in the URL bar and press enter while playing the game.
+
+3. Install the bookmarklet. You will need to enable your browsers "Bookmark Bar" (in Chrome this is Ctl+Shift+b). Navigate to add a bookmark manually and paste the contents of the [googlemaps-bot-bookmarklet file](/googlemaps-snake-bot-bookmarklet?raw=true). Give it anyname you'd like, just make sure it shows up on the bookmark bar. Go to [https://snake.googlemaps.com](https://snake.googlemaps.com), Click "Start", Choose your destination, then start playing. Before the Snake hits a wall click the bookmark you just made in the bookmark bar and watch your snake [slowly] eat every person on the map.
