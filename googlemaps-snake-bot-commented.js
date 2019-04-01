@@ -1,5 +1,6 @@
 (function () {
 	/* Keep track of positions as the board is checked more often than it is drawn */
+	/* The Q.b.o.b[0].b Object is where the snake data is stored, this is obsfucated by Google */
 	oldPosX = Q.b.o.b[0].b.x;
 	oldPosY = Q.b.o.b[0].b.y;
 
@@ -22,6 +23,7 @@
 				/* Move snake up in every even column, down in every odd column */
 				if (curPosX % 2 == 0)
 				{
+					/* The Q.s() function is called by a keydown event listener, this is obsfucated by Google */
 					Q.s({key: "Up"});
 					console.log("Going Up");
 				}
@@ -39,6 +41,7 @@
 				}
 			}
 
+			/* This handles the snake navigation in the bottom row of the board */
 			if (curPosX == 19 && curPosY == 19) {
 				Q.s({key: "Left"});
 				console.log("Turn Left");
